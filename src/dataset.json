@@ -1,0 +1,175 @@
+{
+  "init": {
+    "answers": [
+      { "content": "ヨーロッパ", "nextId": "europe" },
+      { "content": "アジア","nextId": "asia"},
+      { "content": "北中南米", "nextId": "america" },
+      { "content": "アフリカ", "nextId": "africa" }
+    ],
+    "question": "ズバリ！どの方面に行きたいですか？？"
+  },
+  "europe": {
+    "answers": [
+      { "content": "歴史を感じられること", "nextId": "malta" },
+      { "content": "美味しいグルメ", "nextId": "spain" },
+      { "content": "自然を満喫", "nextId": "switzerland" },
+      { "content": "フォトジェニック", "nextId": "germany" }
+    ],
+    "question": "ヨーロッパですね！！！では、旅行で重視するものは何ですか？"
+  },
+  "asia": {
+    "answers": [
+      { "content": "歴史を感じられること", "nextId": "chaina" },
+      { "content": "美味しいグルメ", "nextId": "thailand" },
+      { "content": "自然を満喫", "nextId": "vietnam" },
+      { "content": "フォトジェニック", "nextId": "uzbekistan" }
+    ],
+    "question": "アジアですね！！！では、旅行で重視するものは何ですか？"
+  },
+  "america": {
+    "answers": [  
+      { "content": "歴史を感じられること", "nextId": "peru" },
+      { "content": "エンターテインメントを楽しむ", "nextId": "usa" },
+      { "content": "自然を満喫", "nextId": "argentina" },
+      { "content": "フォトジェニック", "nextId": "mexico" }
+    ],
+    "question": "北中南米ですね！！！では、旅行で重視するものは何ですか？"
+  },
+  "africa": {
+    "answers": [   
+      { "content": "歴史を感じられること", "nextId": "egypt" },
+      { "content": "動物を見たい！", "nextId": "tanzania" },
+      { "content": "自然を満喫", "nextId": "madagascar" },
+      { "content": "フォトジェニック", "nextId": "morocco" }
+    ],
+    "question": "アフリカですね！！！では、旅行で重視するものは何ですか？"
+  },
+  "malta": {
+    "answers": [
+      { "content": "この国について詳しく調べる", "nextId": "https://www.mtajapan.com/index.html" },
+      { "content": "イメージ動画をみる", "nextId": "https://www.youtube.com/results?search_query=%E3%83%9E%E3%83%AB%E3%82%BF+%E6%97%85%E8%A1%8C" },
+      { "content": "最初の質問に戻る", "nextId": "init" }
+    ],
+    "question": "ヨーロッパ×歴史でオススメの国はマルタ共和国🇲🇹です！7000年の歴史を持ち、多数の古代遺跡があります。地中海上という場所柄、様々な文明が行き交い、興味深い歴史が育まれました♪"
+  },
+  "spain": {
+    "answers": [
+      { "content": "この国について詳しく調べる", "nextId": "https://www.spain.info/ja/" },
+      { "content": "イメージ動画をみる", "nextId": "https://www.youtube.com/results?search_query=%E3%82%B9%E3%83%9A%E3%82%A4%E3%83%B3+%E6%97%85%E8%A1%8C" },
+      { "content": "最初の質問に戻る", "nextId": "init" }
+    ],
+    "question": "ヨーロッパ×グルメでオススメの国はスペイン🇪🇸です！パエリア、アヒージョ、ピンチョスなどなど…、美味しいものいっぱい♪中でもバスク地方はヨーロッパ屈指の美食の街です！"
+  },
+  "switzerland": {
+    "answers": [
+      { "content": "この国について詳しく調べる", "nextId": "https://www.myswitzerland.com/ja/" },
+      { "content": "イメージ動画をみる", "nextId": "https://www.youtube.com/results?search_query=%E3%82%B9%E3%82%A4%E3%82%B9+%E6%97%85%E8%A1%8C" },
+      { "content": "最初の質問に戻る", "nextId": "init" }
+    ],
+    "question": "ヨーロッパ×自然でオススメの国はスイス🇨🇭です！アルプスに連なる山々、美しい湖、緑豊かな牧草地など、自然いっぱい！登山するもよし、ゆったり鉄道旅でもよしです♪"
+  },
+  "germany": {
+    "answers": [
+      { "content": "この国について詳しく調べる", "nextId": "https://japan.diplo.de/ja-ja/themen/willkommen" },
+      { "content": "イメージ動画をみる", "nextId": "https://www.youtube.com/results?search_query=%E3%83%89%E3%82%A4%E3%83%84+%E6%97%85%E8%A1%8C" },
+      { "content": "最初の質問に戻る", "nextId": "init" }
+    ],
+    "question": "ヨーロッパ×フォトジェニックでオススメの国はドイツ🇩🇪です！可愛らしい街並みはとてもフォトジェニック！カラフルでメルヘンな街歩きや古城めぐりでおとぎ話の世界へ♪"
+  },
+  "chaina": {
+    "answers": [
+      { "content": "この国について詳しく調べる", "nextId": "http://www.cnta-osaka.jp/" },
+      { "content": "イメージ動画をみる", "nextId": "https://www.youtube.com/results?search_query=%E4%B8%AD%E5%9B%BD+%E6%97%85%E8%A1%8C" },
+      { "content": "最初の質問に戻る", "nextId": "init" }
+    ],
+    "question": "アジア×歴史でオススメの国は中国🇨🇳です！悠久の歴史と広大な土地をもつ中国は、世界遺産の宝庫！古代から築き上げられてきた歴史のロマンを感じたい人にピッタリ♪"
+  },
+  "thailand": {
+    "answers": [
+      { "content": "この国について詳しく調べる", "nextId": "https://www.thailandtravel.or.jp/" },
+      { "content": "イメージ動画をみる", "nextId": "https://www.youtube.com/results?search_query=%E3%82%BF%E3%82%A4+%E6%97%85%E8%A1%8C" },
+      { "content": "最初の質問に戻る", "nextId": "init" }
+    ],
+    "question": "アジア×グルメでオススメの国はタイ🇹🇭です！美食の国であり安くて美味しいグルメが豊富です♪ナイトマーケットの屋台でB級グルメを食べ歩くのも楽しい♪"
+  },
+  "vietnam": {
+    "answers": [
+      { "content": "この国について詳しく調べる", "nextId": "https://vietnam.travel/jp/node/2" },
+      { "content": "イメージ動画をみる", "nextId": "https://www.youtube.com/results?search_query=%E3%83%99%E3%83%88%E3%83%8A%E3%83%A0+%E6%97%85%E8%A1%8C" },
+      { "content": "最初の質問に戻る", "nextId": "init" }
+    ],
+    "question": "アジア×自然でオススメの国はベトナム🇻🇳です！実は大自然の宝庫のベトナム。ハロン湾から望む奇岩群や洞窟巡り、美しいビーチで自然の神秘を楽しめます♪"
+  },
+  "uzbekistan": {
+    "answers": [
+      { "content": "この国について詳しく調べる", "nextId": "https://uzbek.jp/outline/city/" },
+      { "content": "イメージ動画をみる", "nextId": "https://www.youtube.com/results?search_query=%E3%82%A6%E3%82%BA%E3%83%99%E3%82%AD%E3%82%B9%E3%82%BF%E3%83%B3+%E6%97%85%E8%A1%8C" },
+      { "content": "最初の質問に戻る", "nextId": "init" }
+    ],
+    "question": "アジア×フォトジェニックでオススメの国はウズベキスタン🇺🇿です！イスラム教の文化が息づく国。青のタイルが美しいイスラム建築は、フォトジェニックなこと間違いなし♪"
+  },
+  "peru": {
+    "answers": [
+      { "content": "この国について詳しく調べる", "nextId": "https://www.peru.travel/jp" },
+      { "content": "イメージ動画をみる", "nextId": "https://www.youtube.com/results?search_query=%E3%83%9A%E3%83%AB%E3%83%BC%E3%80%80%E6%97%85%E8%A1%8C" },
+      { "content": "最初の質問に戻る", "nextId": "init" }
+    ],
+    "question": "北中南米×歴史でオススメの国はペルー🇵🇪です！インカ帝国が栄えたペルー。古代遺跡マチュピチュはもちろん、クスコ市街やリマ歴史地区などで歴史を感じられます♪"
+  },
+  "usa": {
+    "answers": [
+      { "content": "この国について詳しく調べる", "nextId": "https://www.gousa.jp/" },
+      { "content": "イメージ動画をみる", "nextId": "https://www.youtube.com/results?search_query=%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E3%80%80%E6%97%85%E8%A1%8C" },
+      { "content": "最初の質問に戻る", "nextId": "init" }
+    ],
+    "question": "北中南米×エンターテインメントでオススメの国はアメリカ🇺🇸です！ファッション、芸術など、最先端の文化の集まるアメリカは、ワクワクすること間違いなし♪"
+  },
+  "argentina": {
+    "answers": [
+      { "content": "この国について詳しく調べる", "nextId": "https://ejapo.cancilleria.gob.ar/ja" },
+      { "content": "イメージ動画をみる", "nextId": "https://www.youtube.com/results?search_query=%E3%82%A2%E3%83%AB%E3%82%BC%E3%83%B3%E3%83%81%E3%83%B3%E3%80%80%E6%97%85%E8%A1%8C" },
+      { "content": "最初の質問に戻る", "nextId": "init" }
+    ],
+    "question": "北中南米×自然でオススメの国はアルゼンチン🇦🇷です！中でも南部のパタゴニア地方は、大自然の宝庫！多数ある国立公園で、氷河や美しい山々でのハイキングを楽しめます♪"
+  },
+  "mexico": {
+    "answers": [
+      { "content": "この国について詳しく調べる", "nextId": "https://www.visitmexico.com/en/" },
+      { "content": "イメージ動画をみる", "nextId": "https://www.youtube.com/results?search_query=%E3%83%A1%E3%82%AD%E3%82%B7%E3%82%B3%E3%80%80%E6%97%85%E8%A1%8C" },
+      { "content": "最初の質問に戻る", "nextId": "init" }
+    ],
+    "question": "北中南米×フォトジェニックでオススメの国はメキシコ🇲🇽です！世界遺産の街グアナファトやピンクレイク、ピンクシティ・サカテカスなど、カラフルな色使いのスポットが目白押し♪"
+  },
+  "egypt": {
+    "answers": [
+      { "content": "この国について詳しく調べる", "nextId": "https://www.arukikata.co.jp/country/EG/" },
+      { "content": "イメージ動画をみる", "nextId": "https://www.youtube.com/results?search_query=%E3%82%A8%E3%82%B8%E3%83%97%E3%83%88%E3%80%80%E6%97%85%E8%A1%8C" },
+      { "content": "最初の質問に戻る", "nextId": "init" }
+    ],
+    "question": "アフリカ×歴史でオススメの国はエジプト🇪🇬です！古代からの遺産が数多く残るエジプト。ピラミッドや神殿で、古代文明の神秘性やスケールの大きさに圧倒されます♪"
+  },
+  "tanzania": {
+    "answers": [
+      { "content": "この国について詳しく調べる", "nextId": "https://www.tanzaniatourism.go.tz/en" },
+      { "content": "イメージ動画をみる", "nextId": "https://www.youtube.com/results?search_query=%E3%82%BF%E3%83%B3%E3%82%B6%E3%83%8B%E3%82%A2%E3%80%80%E6%97%85%E8%A1%8C" },
+      { "content": "最初の質問に戻る", "nextId": "init" }
+    ],
+    "question": "アフリカ×動物でオススメの国はタンザニア🇹🇿です！広大な国立公園にはたくさんの動物が！サファリツアーでは身近に野生動物を観察できて迫力満点♪"
+  },
+  "madagascar": {
+    "answers": [
+      { "content": "この国について詳しく調べる", "nextId": "https://www.arukikata.co.jp/country/MG/info/touristresort.html" },
+      { "content": "イメージ動画をみる", "nextId": "https://www.youtube.com/results?search_query=%E3%83%9E%E3%83%80%E3%82%AC%E3%82%B9%E3%82%AB%E3%83%AB%E3%80%80%E6%97%85%E8%A1%8C" },
+      { "content": "最初の質問に戻る", "nextId": "init" }
+    ],
+    "question": "アフリカ×自然でオススメの国はマダガスカル🇲🇬です！アフリカ大陸の南東に位置する島であり、手つかずの自然がいっぱい！中でもバオバブ並木や岩山のツィンギーは必見です♪"
+  },
+  "morocco": {
+    "answers": [
+      { "content": "この国について詳しく調べる", "nextId": "http://www.morocco-emba.jp/travel/index.html" },
+      { "content": "イメージ動画をみる", "nextId": "https://www.youtube.com/results?search_query=%E3%83%A2%E3%83%AD%E3%83%83%E3%82%B3%E3%80%80%E6%97%85%E8%A1%8C" },
+      { "content": "最初の質問に戻る", "nextId": "init" }
+    ],
+    "question": "アフリカ×フォトジェニックでオススメの国はモロッコ🇲🇦です！青の街シャウエンや迷宮都市フェズといった幻想的で異国情緒あふれる世界が楽しめます♪"
+  }
+}
