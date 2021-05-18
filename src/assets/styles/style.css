@@ -1,7 +1,7 @@
 .c-section {
   position: relative;
   height: 100vh;
-  width: 100%;
+  min-width: 100%;
 }
 
 .c-box {
@@ -89,4 +89,10 @@
   font-size: 1rem;
   letter-spacing: .125rem;
   line-height: 1.7;
+}
+
+@media (max-width: 450px) {
+  .c-box {
+    max-width: 92%;
+  }
 }
