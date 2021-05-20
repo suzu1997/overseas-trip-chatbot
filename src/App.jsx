@@ -40,13 +40,14 @@ export const App = () => {
     (selectedAnswer, nextQuestionId) => {
       switch (true) {
         // リンクが選択された時
-        case /^https:*/.test(nextQuestionId) || /^http:*/.test(nextQuestionId):
+        case /^https:*/.test(nextQuestionId) ||
+          /^http:*/.test(nextQuestionId): {
           const a = document.createElement('a');
           a.href = nextQuestionId; //href属性にnextQuestionId(URL)を設定
-          a.target = `_blank`; //別タブで表示
+          a.target = '_blank'; //別タブで表示
           a.click(); //クリックしたらURLのページに遷移
           break;
-
+        }
         // 選択された回答をchatsに追加
         default:
           addChats({
@@ -102,7 +103,7 @@ export const App = () => {
       <section className='c-section'>
         <div className='c-box'>
           <div className='c-header'>
-            <img src={Woman} alt="icon" className='header-icon'/>
+            <img src={Woman} alt='icon' className='header-icon' />
             <p>コロナが終わったらどこへ行く？✈︎</p>
           </div>
           <div className='c-main'>
